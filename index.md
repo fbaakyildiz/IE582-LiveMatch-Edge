@@ -13,7 +13,7 @@ LiveMatch Edge is an IE 582 term project that uses live match statistics and boo
 | Final report | [Open report](reports/final-report.html) |
 | Rendered analysis notebook | [Open notebook HTML](reports/analysis-notebook.html) |
 | Source notebook | [View notebook](notebooks/live_match_edge_workflow.ipynb) |
-| Developer design document | [Read design document](docs/DESIGN.md) |
+| Design document | [Open design document](docs/DESIGN.md) |
 | GitHub repository | [fbaakyildiz/IE582-LiveMatch-Edge](https://github.com/fbaakyildiz/IE582-LiveMatch-Edge) |
 
 ## What The Project Does

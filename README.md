@@ -12,7 +12,7 @@ LiveMatch Edge analyzes live match statistics and betting-market odds to predict
 - [Final report](reports/final-report.html)
 - [Rendered analysis notebook](reports/analysis-notebook.html)
 - [Source notebook](notebooks/live_match_edge_workflow.ipynb)
-- [Developer design document](docs/DESIGN.md)
+- [Design document](docs/DESIGN.md)
 
 ## Problem Statement
 
@@ -77,13 +77,9 @@ jupyter notebook notebooks/live_match_edge_workflow.ipynb
 
 The notebook expects the original match dataset used in the course project. The raw data file is not committed to this repository.
 
-## Design Notes
+## Design
 
-The detailed developer design document is available at:
-
-[docs/DESIGN.md](docs/DESIGN.md)
-
-It documents the data pipeline, model training flow, betting-strategy logic, repository layout, reproducibility constraints, and future engineering improvements.
+[docs/DESIGN.md](docs/DESIGN.md) documents the data pipeline, model training flow, betting-strategy logic, repository layout, reproducibility constraints, and future improvements.
 
 ## Academic Disclaimer
 

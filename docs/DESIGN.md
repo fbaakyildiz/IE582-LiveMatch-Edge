@@ -1,6 +1,6 @@
 # LiveMatch Edge Design Document
 
-Developer-level design notes for the IE 582 football analytics term project.
+Design notes for the IE 582 football analytics term project.
 
 ## 1. Project Identity
 
@@ -28,7 +28,7 @@ The project is academic. It is not designed for real-money betting, automated tr
 ├── _config.yml                       # GitHub Pages configuration
 ├── requirements.txt                  # Python analysis dependencies
 ├── docs/
-│   ├── DESIGN.md                     # Developer design document
+│   ├── DESIGN.md                     # Design document
 │   └── archive-note.md               # Original placeholder content
 ├── notebooks/
 │   └── live_match_edge_workflow.ipynb # Source analysis workflow
