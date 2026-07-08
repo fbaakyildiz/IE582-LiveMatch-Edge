@@ -6,7 +6,7 @@ Developer-level design notes for the IE 582 football analytics term project.
 
 **Project name:** LiveMatch Edge
 
-**Recommended GitHub repository name:** `IE582-LiveMatch-Edge` or `live-match-edge`
+**GitHub repository name:** `IE582-LiveMatch-Edge`
 
 The project studies in-play football match prediction. It combines live match statistics, betting-market odds, and machine learning classifiers to predict final match outcomes and evaluate confidence-based betting decisions.
 
@@ -216,24 +216,22 @@ Recommended next steps:
 - Add experiment tracking for model parameters and results.
 - Add a lightweight dashboard for match-level decision inspection.
 
-## 16. Rename Plan
+## 16. Repository Rename
 
-Git repository renaming cannot be done through normal `git push`; it requires GitHub repository admin rights.
-
-Recommended new repository name:
+The repository has been renamed from:
 
 ```text
-IE582-LiveMatch-Edge
+fbaakyildiz/IE582TERMPROJECT
 ```
 
-GitHub UI path:
+to:
 
 ```text
-Repository -> Settings -> General -> Repository name -> Rename
+fbaakyildiz/IE582-LiveMatch-Edge
 ```
 
-After renaming, update the local remote:
+Local remotes should point to:
 
-```bash
-git remote set-url origin https://github.com/fbaakyildiz/IE582-LiveMatch-Edge.git
+```text
+https://github.com/fbaakyildiz/IE582-LiveMatch-Edge.git
 ```

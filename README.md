@@ -8,7 +8,7 @@ LiveMatch Edge analyzes live match statistics and betting-market odds to predict
 
 ## Project Links
 
-- [Project homepage](https://fbaakyildiz.github.io/IE582TERMPROJECT/)
+- [Project homepage](https://fbaakyildiz.github.io/IE582-LiveMatch-Edge/)
 - [Final report](reports/final-report.html)
 - [Rendered analysis notebook](reports/analysis-notebook.html)
 - [Source notebook](notebooks/live_match_edge_workflow.ipynb)
