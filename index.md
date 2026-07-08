@@ -1,5 +1,7 @@
 # LiveMatch Edge
 
+[Back to Portfolio](https://fbaakyildiz.github.io/)
+
 In-play football outcome prediction and betting-strategy evaluation.
 
 LiveMatch Edge is an IE 582 term project that uses live match statistics and bookmaker odds to predict final football match outcomes during play. The project compares XGBoost, multinomial logistic regression, and random forest models, then evaluates a confidence-based live betting strategy.
