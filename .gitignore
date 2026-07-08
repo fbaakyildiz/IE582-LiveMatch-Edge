@@ -7,3 +7,5 @@ venv/
 *.csv
 *.xlsx
 *.parquet
+!data/
+!data/README.md

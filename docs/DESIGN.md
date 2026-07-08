@@ -74,7 +74,13 @@ The notebook expects a match-level CSV with fields such as:
 - match statistics split by home and away teams
 - `match_start_datetime`
 
-The original dataset is not committed to the repository. To fully reproduce the notebook, place the source CSV in the expected notebook working directory or update the notebook path.
+The original dataset is not committed to the repository. To fully reproduce the notebook, place the source CSV at:
+
+```text
+data/match_data_582_converted.csv
+```
+
+The notebook can also read an absolute path from the `MATCH_DATA_CSV` environment variable. This avoids hard-coding local user paths in the public notebook.
 
 ## 6. Feature Engineering
 

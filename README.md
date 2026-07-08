@@ -77,6 +77,18 @@ jupyter notebook notebooks/live_match_edge_workflow.ipynb
 
 The notebook expects the original match dataset used in the course project. The raw data file is not committed to this repository.
 
+Expected local data path:
+
+```text
+data/match_data_582_converted.csv
+```
+
+Alternatively, set:
+
+```bash
+export MATCH_DATA_CSV=/absolute/path/to/match_data_582_converted.csv
+```
+
 ## Design
 
 [docs/DESIGN.md](docs/DESIGN.md) documents the data pipeline, model training flow, betting-strategy logic, repository layout, reproducibility constraints, and future improvements.
