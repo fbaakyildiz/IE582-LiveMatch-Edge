@@ -43,6 +43,8 @@
       nav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
       nav a, .button { border-radius: 999px; font-size: 14px; font-weight: 800; }
       nav a { border: 1px solid var(--line); background: rgba(255,255,255,0.7); color: var(--muted); padding: 10px 13px; }
+      nav a.github-nav-link { display: inline-flex; width: 106px; min-height: 40px; align-items: center; justify-content: center; background: rgba(255,255,255,0.82); padding: 8px 13px; }
+      nav a.github-nav-link img { display: block; width: 78px; height: auto; object-fit: contain; }
       .hero {
         display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
         gap: 28px; min-height: 600px; align-items: center; padding: 56px 0 64px;
@@ -96,7 +98,9 @@
         <a href="https://fbaakyildiz.github.io/">Portfolio</a>
         <a href="#method">Method</a>
         <a href="#materials">Materials</a>
-        <a href="https://github.com/fbaakyildiz/IE582-LiveMatch-Edge" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="github-nav-link" href="https://github.com/fbaakyildiz/IE582-LiveMatch-Edge" target="_blank" rel="noreferrer" aria-label="Open LiveMatch Edge on GitHub">
+          <img src="https://fbaakyildiz.github.io/assets/githublogo.png" alt="GitHub" />
+        </a>
       </nav>
     </header>
     <main>
