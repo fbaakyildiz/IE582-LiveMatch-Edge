@@ -55,8 +55,19 @@
       nav a.github-nav-link { display: inline-flex; width: 92px; height: 38px; min-height: 38px; align-items: center; justify-content: center; background: rgba(255,255,255,0.82); overflow: hidden; padding: 8px 11px; }
       nav a.github-nav-link img { display: block; width: 68px !important; max-width: 68px; height: auto !important; max-height: 18px; object-fit: contain; }
       .hero {
+        position: relative;
         display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+        overflow: hidden;
         gap: 28px; min-height: 600px; align-items: center; padding: 56px 0 64px;
+      }
+      .hero::before {
+        position: absolute; right: -58px; bottom: 44px; width: min(42vw, 420px); height: 250px;
+        pointer-events: none; border: 2px solid rgba(190, 18, 60, 0.16); border-radius: 22px;
+        background:
+          linear-gradient(90deg, transparent 49%, rgba(190, 18, 60, 0.18) 50%, transparent 51%),
+          radial-gradient(circle at 18% 50%, rgba(127, 29, 29, 0.16) 0 28px, transparent 29px),
+          radial-gradient(circle at 82% 50%, rgba(190, 18, 60, 0.13) 0 28px, transparent 29px);
+        content: ""; opacity: 0.72; transform: rotate(-4deg);
       }
       .eyebrow {
         margin: 0 0 12px; color: var(--accent); font-size: 12px; font-weight: 800;
@@ -97,7 +108,7 @@
       footer { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; padding: 28px 0 40px; }
       footer a { color: var(--dark); font-weight: 800; }
       @media (max-width: 920px) { .hero, .steps-grid { grid-template-columns: 1fr; } }
-      @media (max-width: 680px) { .site-header, footer { align-items: flex-start; flex-direction: column; } nav { justify-content: flex-start; } h1 { font-size: 43px; } .button { width: 100%; } }
+      @media (max-width: 680px) { .site-header, footer { align-items: flex-start; flex-direction: column; } nav { justify-content: flex-start; } h1 { font-size: 43px; } .button { width: 100%; } .hero::before { right: -150px; width: 300px; opacity: 0.34; } }
     </style>
   </head>
   <body>
